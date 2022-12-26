@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(./coffe/pexels-mo-hassanein-14452704.jpg);
+  background-color: rgb(129, 63, 12);
+  color: white;
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.menu,
+.logo {
+  height: 50px;
+  margin: 10px 20px;
+}
+.menu {
+  cursor: pointer;
+}
+
+.company-info {
+  margin: 10px 300px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(65, 11, 11);
+}
+
+.menu-button {
+  background-color: rgb(203, 204, 219);
+  border-radius: 30px;
+  color: rgb(0, 26, 255);
+}
+.menu-button:active {
+  box-shadow: 2px 2px rgb(20, 20, 20);
+  background-color: darkgreen;
+}
+.img {
+  display: block;
+  width: 1200px;
+  height: 1300px;
+  margin: 70px auto;
+}
+.img-1,
+.img-2,
+.img-3 {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  margin: 10px;
+}
+.div-img-sponsor {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  width: 700px;
+  bottom: 70px;
+  left: 50px;
+  right: 50px;
+}
+.div-contact {
+  display: block;
+  margin: 20px auto;
+}
+.div-contact p,
+.contact-us {
+  margin: 10px auto;
+  text-align: center;
+}
